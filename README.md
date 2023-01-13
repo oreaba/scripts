@@ -39,3 +39,5 @@ You have a persistent, dedicated, external storage directory mounted inside the 
 10. for elasticbeans application, you can find the app dir in the ec2 in this location '/var/app/current/' and the 'my_efs' folder will be in '/var/app/current/my_efs/'
 
 Thank you,
+# by: Mohammad Hamdy Oreaba
+https://linkedin.com/in/oreaba
