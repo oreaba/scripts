@@ -1,8 +1,7 @@
-# by: Mohammad Hamdy Oreaba
-https://linkedin.com/in/oreaba
-#  This script mounts the efs storage to the elastic beanstalk running on an aws AMI version 2 ec2 instance using hooks (hooks is the new feature in AMI v2)
 
-# background
+#  Mount the efs storage to the elastic beanstalk running on an aws AMI version 2 ec2 instance using hooks (hooks is the new feature in AMI v2)
+
+## background
 trying to mount efs volume on aws AMI v1 will work fine, but when you try to mount it to AMI v2, 
 you may get a lot of errors like:
 
@@ -39,5 +38,5 @@ You have a persistent, dedicated, external storage directory mounted inside the 
 10. for elasticbeans application, you can find the app dir in the ec2 in this location '/var/app/current/' and the 'my_efs' folder will be in '/var/app/current/my_efs/'
 
 Thank you,
-# by: Mohammad Hamdy Oreaba
+### by: Mohammad Hamdy Oreaba
 https://linkedin.com/in/oreaba
