@@ -1,5 +1,5 @@
 
-#  Mount the efs storage to the elastic beanstalk running on an aws AMI version 2 ec2 instance using hooks (hooks is the new feature in AMI v2)
+##  Mount the efs storage to the elastic beanstalk running on an aws AMI version 2 ec2 instance using hooks (hooks is the new feature in AMI v2)
 
 ## Background:
 trying to mount efs volume on aws AMI v1 will work fine, but when you try to mount it to AMI v2, 
