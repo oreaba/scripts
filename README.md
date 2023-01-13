@@ -3,7 +3,7 @@
 
 ## Background:
 trying to mount efs volume on aws AMI v1 will work fine, but when you try to mount it to AMI v2, 
-you may get a lot of errors like:
+you may get a lot of errors below.
 
 -'ERROR: Mount command failed!'
 
@@ -12,8 +12,10 @@ you may get a lot of errors like:
 -2022-09-12 14:43:16,304 [ERROR] Error encountered during build of prebuild_0_my_app: Command 01_mount failed Traceback (most recent call last): File /usr/lib/python3.7/site-packages/cfnbootstrap/construction.py, line 579, in run_config
 
 ## Solution:
+I have found no guide on the internet or clear steps in aws documentation to mount efs drive on AWS AMI v2 EC2 instance.
 I have implemented and tested this method and it is working perfectly fine on AWS AMI v2.
-Final goal:
+
+## Final goal:
 You have a persistent, dedicated, external storage directory mounted inside the root of your application for any use!
 
 ## Steps:
