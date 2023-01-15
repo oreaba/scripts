@@ -27,7 +27,7 @@ You have a persistent, dedicated, external storage directory mounted inside the 
 
 4. Update the instance security group to allow outbound connections on port 2049 to the Amazon EFS security group.
 
-5. In my setup, I have both the ec2 instance, and the efs on the same region and same availability zone.
+5. In my setup, I have both the ec2 instance, and the efs on the same region and same availability zone. This turned out to be a MUST. Therefor I highly recommend you create the EFS in all availability zone of the ec2 instance region.
 
 6. Edit the 'env_var.config' with your <EFS_FILE_SYSTEM_ID> and <EFS_MOUNT_DIR> values
 
